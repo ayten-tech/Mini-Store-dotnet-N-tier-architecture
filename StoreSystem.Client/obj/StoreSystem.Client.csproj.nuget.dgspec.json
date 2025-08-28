@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Ayten/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj": {}
+    "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj": {}
   },
   "projects": {
-    "/Users/Ayten/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj": {
+    "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Ayten/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj",
+        "projectUniqueName": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj",
         "projectName": "StoreSystem.Client",
-        "projectPath": "/Users/Ayten/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj",
+        "projectPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Client/StoreSystem.Client.csproj",
         "packagesPath": "/Users/Ayten/.nuget/packages/",
-        "outputPath": "/Users/Ayten/StoreSystemSolution/StoreSystem.Client/obj/",
+        "outputPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Ayten/.nuget/NuGet/NuGet.Config"
@@ -20,19 +20,30 @@
           "net5.0"
         ],
         "sources": {
+          "/Users/Ayten/.dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj": {
+                "projectPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net5.0": {
@@ -47,6 +58,18 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -58,11 +81,20 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
               "version": "[5.0.17, 5.0.17]"
@@ -73,12 +105,82 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/Ayten/.dotnet/sdk/9.0.303/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
         "browser-wasm": {
           "#import": []
+        }
+      }
+    },
+    "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
+        "projectName": "StoreSystem.Shared",
+        "projectPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
+        "packagesPath": "/Users/Ayten/.nuget/packages/",
+        "outputPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Ayten/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/Ayten/.dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/Ayten/.dotnet/sdk/9.0.303/RuntimeIdentifierGraph.json"
         }
       }
     }

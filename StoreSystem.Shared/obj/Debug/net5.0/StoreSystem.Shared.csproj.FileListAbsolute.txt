@@ -1,0 +1,12 @@
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/bin/Debug/net5.0/StoreSystem.Shared.deps.json
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/bin/Debug/net5.0/StoreSystem.Shared.dll
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/bin/Debug/net5.0/ref/StoreSystem.Shared.dll
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/bin/Debug/net5.0/StoreSystem.Shared.pdb
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.csproj.AssemblyReference.cache
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.AssemblyInfoInputs.cache
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.AssemblyInfo.cs
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.csproj.CoreCompileInputs.cache
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.dll
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/ref/StoreSystem.Shared.dll
+/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/Debug/net5.0/StoreSystem.Shared.pdb

@@ -1,6 +1,9 @@
-namespace StoreSystem.Shared;
+using System;
+
 // This represents the core business entity, often mapping directly to a database table
-public class Product
+namespace StoreSystem.Shared.Models
+{
+    public class Product
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
@@ -9,3 +12,5 @@ public class Product
     public int Stock { get; set; }
     public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 }
+}
+

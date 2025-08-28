@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Ayten/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
+      "projectUniqueName": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
       "projectName": "StoreSystem.Shared",
-      "projectPath": "/Users/Ayten/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
+      "projectPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/StoreSystem.Shared.csproj",
       "packagesPath": "/Users/Ayten/.nuget/packages/",
-      "outputPath": "/Users/Ayten/StoreSystemSolution/StoreSystem.Shared/obj/",
+      "outputPath": "/Users/Ayten/Desktop/StoreSystemSolution/StoreSystem.Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Ayten/.nuget/NuGet/NuGet.Config"
